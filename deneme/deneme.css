@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+}
+
+#content {
+    margin: 20px 0;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: 350px;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    border-bottom: 2px solid #003666;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;    
+}
+
+nav a:hover{
+    border-bottom: 2px solid #003666;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666; 
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.kart{
+    padding: 25px;
+}
+
+

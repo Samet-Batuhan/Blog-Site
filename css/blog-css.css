@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: 350px;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    border-bottom: 2px solid #003666;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;    
+}
+
+nav a:hover{
+    border-bottom: 2px solid #003666;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666; 
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.kart{
+    padding: 25px;
+}
+
+

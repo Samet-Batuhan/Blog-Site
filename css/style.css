@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;    
+}
+
+nav a:hover{
+    border-bottom: 2px solid #003666;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666; 
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+#anasayfa{
+    height: 700px;
+    background-image: url("../img/r2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 700px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/* .container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+} */
+
+#blog-yazi{
+    background-color: #ddd;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    border: 1px solid #ddd ;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard{
+    font-size: 18px;
+    color: #003666;
+    padding: 15px 15px;
+}
+
+.card:hover{
+    border: 2px solid gray;
+}
+
+.btn-index{
+    text-decoration: none;
+    color: white; 
+}
+
+.buton{
+    background-color: #003666;
+}
+
